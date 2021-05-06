@@ -19,7 +19,7 @@ const Navbar = ({fetchData}) => {
                 justifyContent : 'space-between',
                 alignItems : 'center'
             }}>
-                Tarun
+                Tarun Dhiman
 
                 <div>
                     <input style={{
