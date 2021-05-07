@@ -40,7 +40,12 @@ const Homepage = () => {
                     justifyContent: 'center'
                 }}>
                     {data.photos.map(ele => {
-                        return <ImageTile imageSrc={ele.src.medium} />
+                        return (<ImageTile 
+                        
+                        key={ele.id}
+                        imgId={ele.id}
+                        imageSrc={ele.src.medium}
+                        />)
                     })}
                 </div>
             )}
